@@ -63,7 +63,7 @@ const blogTheme = getThemeConfig({
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
 
-  
+  base: '/zjydipingxian.github.io/',
   extends: blogTheme,
   lang: 'zh-cn',
   title: 'NuLL',
